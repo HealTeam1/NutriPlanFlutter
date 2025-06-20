@@ -2,15 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:nutrihealth_app/features/auth/presentation/widgets/login_form.dart';
 import 'package:nutrihealth_app/features/auth/presentation/widgets/register_form.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+class AuthPage extends StatefulWidget {
+  const AuthPage({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  State<AuthPage> createState() => _LoginPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
-  bool _isVisible = false;
+class _LoginPageState extends State<AuthPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
